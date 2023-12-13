@@ -20,3 +20,14 @@ const addEventOnElements = function (elements,eventType,callbacks){
  addEventOnElements(searchTogglers,"click",function(){
     searchBox.classList.toggle("active");
  })
+
+
+
+ /**
+  * store movieId in local Storage 
+  * when you click any movie card
+  */
+
+ const getMovieDetail = function(movieId){
+    window.localStorage.setItem("movieId", String(movieId));
+ }
