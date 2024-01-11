@@ -58,7 +58,7 @@ const {
     videos: {results : videos}
 }=movie;
 
-document.title = `${title} - TVflix`;
+document.title = `${title} - Movies.now`;
 
 const movieDetail = document.createElement("div");
 movieDetail.classList.add("movie-detail");
